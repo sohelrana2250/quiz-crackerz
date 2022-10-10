@@ -1,0 +1,29 @@
+.home-bg-image {
+
+    background-image: url('./my-img.jpg');
+    background-repeat: no-repeat;
+    background-size: 1700px auto;
+}
+
+.point {
+
+    color: rgb(23, 228, 101);
+}
+
+.quiz-box {
+
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.border {
+    border-radius: 3px solid rgb(43, 35, 35);
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.card-handel {
+
+    margin-left: 5%;
+    margin-right: 5%;
+}
