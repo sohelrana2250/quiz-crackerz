@@ -60,7 +60,7 @@ const Blog = () => {
                     </Card.Text>
 
                 </Card.Body>
-                <Card.Footer className="text-muted">2 days ago</Card.Footer>
+                <Card.Footer className="text-muted">.....</Card.Footer>
             </Card>
         </div>
     );

@@ -1,3 +1,25 @@
+
+
+
+###  Project Decription 
+my Project Name : Kahoot-quiz-zone.Which is the programming quiz related Web Side.
+###  Project Working process
+1.Kahoot-quiz-zone this project developing by the JavaScrip,Bootstrap,React-Bootstrap and  some css code. 
+2.First of all I have to strating developing part is NavBar ----- I was successfully done this part.
+3.then I will started project decription part which means Kahoot-quiz-zone project conditing and tarms.
+4.my project 5 types of Quiz Exist.and this  part developing by the react-dom-dynamic process.
+5.Then I was drow the line chart and Barchart ...programming Hero provided API.
+6.Blog Section- this part i have to Answer the Three question with accoudiam react bootstarp.
+###  Project Bonus Part
+1.I was completed by the successfuly 10 commit with githup.
+2.toast -- which is the i have to used Correct or Incorrect Answer siaplay.
+3.Thank you programming -Hero team...... 
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +90,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
