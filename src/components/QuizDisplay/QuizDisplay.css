@@ -1,0 +1,22 @@
+.card-section {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 2%;
+}
+
+.quiz-section {
+
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eye-button {
+
+    margin-left: 40px;
+    border-radius: 50%;
+    font-size: 15px;
+    background-color: rgb(235, 30, 48);
+    color: aliceblue;
+}

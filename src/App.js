@@ -25,8 +25,14 @@ function App() {
             return fetch('https://openapi.programming-hero.com/api/quiz')
           }
         },
-        { path: '/statistics', element: <Statistics></Statistics> },
-        { path: '//blog', element: <Blog></Blog> },
+        {
+          path: '/statistics',
+          element: <Statistics></Statistics>,
+          loader: () => {
+            return fetch('https://openapi.programming-hero.com/api/quiz');
+          }
+        },
+        { path: '/blog', element: <Blog></Blog> },
 
         {
           path: '/:ID',

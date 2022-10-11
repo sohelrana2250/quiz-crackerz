@@ -50,10 +50,7 @@ const Home = () => {
             <div className='card-handel'>
 
                 <Row>
-                    {
-
-                        data.map((v, index) => <TopicCard key={index} cart={v}></TopicCard>)
-                    }
+                    {data.map((v, index) => <TopicCard key={index} cart={v}></TopicCard>)}
                 </Row>
 
             </div>
