@@ -58,7 +58,7 @@ const QuizDisplay = (props) => {
 
 
                 <div className='col-3'>
-                    <button className='click-option btn btn-outline-danger' type="button" onClick={() => AnswerHandelClick(v)}> <i className="fa-regular fa-circle-check  fs-5"></i></button>
+                    <button className='click-option btn btn-outline-danger' type="button" onClick={() => AnswerHandelClick(v)}> <i className="fa-regular fa-circle-check"></i></button>
                 </div>
 
                 <label className="form-check-label fs-3 handel-margine">{v}</label>
@@ -81,7 +81,6 @@ const QuizDisplay = (props) => {
                     </h5>
                     <p> {questionOption}</p>
 
-                    <button className='btn btn-primary' >Go somewhere</button>
                 </div>
             </div>
 

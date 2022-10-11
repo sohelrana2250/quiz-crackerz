@@ -12,7 +12,7 @@ const QuizDetails = () => {
 
     return (
         <div>
-            <h1>Question-Component</h1>
+            <h1 className='fs-2'>Quiz-Question</h1>
             {
 
                 questionData.map((v, index) => <QuizDisplay key={index} questionInfo={v} unique={index}></QuizDisplay>)
