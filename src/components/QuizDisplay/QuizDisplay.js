@@ -7,8 +7,10 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 
+
 const QuizDisplay = (props) => {
     const { question, options, correctAnswer } = props.questionInfo;
+    const { unique } = props;
 
     const [corrent, setCorrect] = useState('');
 
@@ -52,10 +54,16 @@ const QuizDisplay = (props) => {
 
     const questionOption = options.map((v, index) => {
         return <div key={index} className='d-flex  quiz-section '>
-            <div className="form-check col-12" >
+            <div className="form-check col-12 d-flex" >
 
-                <label className="form-check-label fs-3">{v}</label>
-                <input className="form-check-input fs-3" type="checkbox" value="" id="flexCheckIndeterminate" onClick={() => AnswerHandelClick(v)} />
+
+                <div className='col-3'>
+                    <button className='click-option btn btn-outline-danger' type="button" onClick={() => AnswerHandelClick(v)}> <i className="fa-regular fa-circle-check  fs-5"></i></button>
+                </div>
+
+                <label className="form-check-label fs-3 handel-margine">{v}</label>
+
+
                 <ToastContainer />
             </div>
         </div>
@@ -67,9 +75,9 @@ const QuizDisplay = (props) => {
             <div className="card">
 
                 <div className="card-body">
-                    <h5 className="card-title fs-5">{questionSection}
-                        <button className='eye-button' onClick={HandelCorrectAnswer}><i className="fa-solid fa-eye"></i></button>
-                        <ToastContainer />
+                    <h5 className="card-title fs-5"><b className='fs-4'>Quiz No:{unique + 1}</b> {questionSection}
+                        <button className='eye-button' onClick={HandelCorrectAnswer}><i className="fa-solid fa-eye fs-5"></i></button>
+
                     </h5>
                     <p> {questionOption}</p>
 

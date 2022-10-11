@@ -15,7 +15,7 @@ const QuizDetails = () => {
             <h1>Question-Component</h1>
             {
 
-                questionData.map((v, index) => <QuizDisplay key={index} questionInfo={v}></QuizDisplay>)
+                questionData.map((v, index) => <QuizDisplay key={index} questionInfo={v} unique={index}></QuizDisplay>)
 
             }
 
