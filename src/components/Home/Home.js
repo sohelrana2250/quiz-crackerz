@@ -16,7 +16,7 @@ const Home = () => {
         <div>
             <div className='home-bg-image quiz-box '>
 
-                <h1 className='point'><b>WelCome to  <b>Quiz-Code</b></b></h1>
+                <h1 className='point'><b>WelCome to  <b>Kahoot-Quiz-Zone</b></b></h1>
                 <hr className='border' />
                 <div className='row'>
 
@@ -45,7 +45,8 @@ const Home = () => {
             </div>
 
             <br />
-            <h1>Topic-Data-Component</h1>
+            <h1>Quiz-Zone</h1>
+            <hr className='border' />
 
             <div className='card-handel'>
 

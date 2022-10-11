@@ -5,8 +5,7 @@ const Footer = () => {
         <div>
             <footer className=" h-none bg-dark rounded mt-5 d-flex justify-content-center align-items-center">
                 <div className="text-center">
-                    <h1 className="text-white">Honest News
-                        Hub</h1>
+                    <h1 className="text-white">Kahoot-Quiz-Zone</h1>
                     <p className="text-white">Office 41, Zawaya Buildin, Ghala Muscat,</p>
                     <p className="text-white">Sultanate of Oman</p>
                     <p className="text-white">Privacy Ploicy | Terms of use</p>
